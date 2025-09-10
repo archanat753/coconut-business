@@ -1,9 +1,0 @@
-/* Banner Image Full Width */
-.banner img {
-    width: 100%;        /* Full width of the page */
-    height: 400px;      /* Fixed height for banner */
-    object-fit: cover;  /* Crops and fills nicely */
-    display: block;     /* Removes extra gaps */
-    margin: 0 auto;
-    border-radius: 0;   /* optional: remove rounded edges */
-}

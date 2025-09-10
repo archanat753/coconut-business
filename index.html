@@ -3,31 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Thota Archana - Coconut Business</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Thota Archana Coconuts - Home</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/script.js"></script>
 </head>
 <body>
   <header>
-    <h1>🌴 Thota Archana Coconuts 🌴</h1>
+    <h1>Thota Archana Coconuts</h1>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="products.html">Products</a>
-      <a href="gallery.html">Gallery</a>
-      <a href="contact.html">Contact</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
   </header>
-  
+
+  <!-- Direct Banner Image -->
+  <section class="hero-image">
+    <img src="home-banner1.jpg" alt="Coconut Farm Banner">
+  </section>
 
   <main>
-    <h2>Fresh Coconuts, Direct from Farmers</h2>
-    <p>We buy and sell high-quality coconuts at wholesale and retail prices.</p>
-     <img src="assets/image1.jpg" alt="Fresh Coconuts" class="zoom-in home-img">
-    <a href="products.html" class="btn">See Products</a>
+    <h1 class="fade-in">Welcome to Thota Archana Coconuts</h1>
+    <p class="slide-in-left">Supplying farm-fresh coconuts from Eluru to Hyderabad and across India.</p>
+    <p class="slide-in-right">We deliver quality coconuts all over India with trusted export services.</p>
+    <a href="products.html" class="btn zoom-in">Explore Our Products</a>
   </main>
 
   <footer>
-    <p>&copy; 2025 Thota Archana. All rights reserved.</p>
+    <p>&copy; <span id="year"></span> Thota Archana Coconuts. All Rights Reserved.</p>
   </footer>
 </body>
 </html>

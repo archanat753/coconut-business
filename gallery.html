@@ -3,32 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gallery - Thota Archana</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Gallery - Thota Archana Coconuts</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/script.js"></script>
 </head>
 <body>
   <header>
-    <h1>Gallery</h1>
+    <h1>Thota Archana Coconuts</h1>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="products.html">Products</a>
-      <a href="gallery.html">Gallery</a>
-      <a href="contact.html">Contact</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
   </header>
 
   <main>
-    <h2>Our Farm & Products</h2>
+    <h1 class="fade-in">Our Gallery</h1>
+    <p class="zoom-in">Take a look at our coconut farms, harvest, and supply process.</p>
+
     <div class="gallery">
-      <img src="assets/image2.jpg" alt="Fresh Coconut">
-      <img src="assets/image4.jpg" alt="Tender Coconut">
-      
+      <img src="image5.jpg" alt="Coconut Farm" class="slide-in-left">
+      <img src="image2.jpg" alt="Harvesting Coconuts" class="fade-in">
+      <img src="image4.jpg" alt="Fresh Coconuts" class="slide-in-right">
+      <img src="image3.jpg" alt="Export Supply" class="zoom-in">
     </div>
   </main>
 
   <footer>
-    <p>&copy; 2025 Thota Archana</p>
+    <p>&copy; <span id="year"></span> Thota Archana Coconuts. All Rights Reserved.</p>
   </footer>
 </body>
 </html>
